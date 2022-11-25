@@ -1,0 +1,21 @@
+# Есть строка с перечислением песен
+
+my_favorite_songs = 'Waste a Moment, Staying\' Alive, A Sorta Fairytale, Start Me Up, New Salvation'
+
+# Выведите на консоль с помощью индексации строки, последовательно: первый трек, последний, второй, второй с конца
+# Нельзя переопределять my_favorite_songs и запятая не должна выводиться.
+
+
+first = 'Waste a Moment, Staying\' Alive, A Sorta Fairytale, Start Me Up, New Salvation'[:14]
+last = 'Waste a Moment, Staying\' Alive, A Sorta Fairytale, Start Me Up, New Salvation'[-13:]
+second = 'Waste a Moment, Staying\' Alive, A Sorta Fairytale, Start Me Up, New Salvation'[16:30]
+lastb = 'Waste a Moment, Staying\' Alive, A Sorta Fairytale, Start Me Up, New Salvation'[-26:-15]
+transf = "\n"
+print(first + transf + last + transf + second + transf + lastb)
+
+
+Waste a Moment
+New Salvation
+Staying' Alive
+Start Me Up
+
